@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57BBDCD0271F57370017C7EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCCF271F57370017C7EB /* AppDelegate.m */; };
+		57BBDCD3271F57370017C7EB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCD2271F57370017C7EB /* SceneDelegate.m */; };
+		57BBDCD6271F57370017C7EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCD5271F57370017C7EB /* ViewController.m */; };
+		57BBDCD9271F57370017C7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BBDCD7271F57370017C7EB /* Main.storyboard */; };
+		57BBDCDC271F57370017C7EB /* Airborne_Raider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCDA271F57370017C7EB /* Airborne_Raider.xcdatamodeld */; };
+		57BBDCDE271F573B0017C7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BBDCDD271F573B0017C7EB /* Assets.xcassets */; };
+		57BBDCE1271F573B0017C7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BBDCDF271F573B0017C7EB /* LaunchScreen.storyboard */; };
+		57BBDCE4271F573B0017C7EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCE3271F573B0017C7EB /* main.m */; };
+		57BBDCEE271F573B0017C7EB /* Airborne_RaiderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCED271F573B0017C7EB /* Airborne_RaiderTests.m */; };
+		57BBDCF9271F573B0017C7EB /* Airborne_RaiderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCF8271F573B0017C7EB /* Airborne_RaiderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57BBDCEA271F573B0017C7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BBDCC3271F57370017C7EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57BBDCCA271F57370017C7EB;
+			remoteInfo = "Airborne Raider";
+		};
+		57BBDCF5271F573B0017C7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BBDCC3271F57370017C7EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57BBDCCA271F57370017C7EB;
+			remoteInfo = "Airborne Raider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57BBDCCB271F57370017C7EB /* Airborne Raider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airborne Raider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BBDCCE271F57370017C7EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57BBDCCF271F57370017C7EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57BBDCD1271F57370017C7EB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		57BBDCD2271F57370017C7EB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		57BBDCD4271F57370017C7EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57BBDCD5271F57370017C7EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57BBDCD8271F57370017C7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57BBDCDB271F57370017C7EB /* Airborne_Raider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airborne_Raider.xcdatamodel; sourceTree = "<group>"; };
+		57BBDCDD271F573B0017C7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57BBDCE0271F573B0017C7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57BBDCE2271F573B0017C7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BBDCE3271F573B0017C7EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57BBDCE9271F573B0017C7EB /* Airborne RaiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airborne RaiderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BBDCED271F573B0017C7EB /* Airborne_RaiderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airborne_RaiderTests.m; sourceTree = "<group>"; };
+		57BBDCEF271F573B0017C7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BBDCF4271F573B0017C7EB /* Airborne RaiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airborne RaiderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BBDCF8271F573B0017C7EB /* Airborne_RaiderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airborne_RaiderUITests.m; sourceTree = "<group>"; };
+		57BBDCFA271F573B0017C7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57BBDCC8271F57370017C7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BBDCE6271F573B0017C7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BBDCF1271F573B0017C7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57BBDCC2271F57370017C7EB = {
+			isa = PBXGroup;
+			children = (
+				57BBDCCD271F57370017C7EB /* Airborne Raider */,
+				57BBDCEC271F573B0017C7EB /* Airborne RaiderTests */,
+				57BBDCF7271F573B0017C7EB /* Airborne RaiderUITests */,
+				57BBDCCC271F57370017C7EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57BBDCCC271F57370017C7EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57BBDCCB271F57370017C7EB /* Airborne Raider.app */,
+				57BBDCE9271F573B0017C7EB /* Airborne RaiderTests.xctest */,
+				57BBDCF4271F573B0017C7EB /* Airborne RaiderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57BBDCCD271F57370017C7EB /* Airborne Raider */ = {
+			isa = PBXGroup;
+			children = (
+				57BBDCCE271F57370017C7EB /* AppDelegate.h */,
+				57BBDCCF271F57370017C7EB /* AppDelegate.m */,
+				57BBDCD1271F57370017C7EB /* SceneDelegate.h */,
+				57BBDCD2271F57370017C7EB /* SceneDelegate.m */,
+				57BBDCD4271F57370017C7EB /* ViewController.h */,
+				57BBDCD5271F57370017C7EB /* ViewController.m */,
+				57BBDCD7271F57370017C7EB /* Main.storyboard */,
+				57BBDCDD271F573B0017C7EB /* Assets.xcassets */,
+				57BBDCDF271F573B0017C7EB /* LaunchScreen.storyboard */,
+				57BBDCE2271F573B0017C7EB /* Info.plist */,
+				57BBDCE3271F573B0017C7EB /* main.m */,
+				57BBDCDA271F57370017C7EB /* Airborne_Raider.xcdatamodeld */,
+			);
+			path = "Airborne Raider";
+			sourceTree = "<group>";
+		};
+		57BBDCEC271F573B0017C7EB /* Airborne RaiderTests */ = {
+			isa = PBXGroup;
+			children = (
+				57BBDCED271F573B0017C7EB /* Airborne_RaiderTests.m */,
+				57BBDCEF271F573B0017C7EB /* Info.plist */,
+			);
+			path = "Airborne RaiderTests";
+			sourceTree = "<group>";
+		};
+		57BBDCF7271F573B0017C7EB /* Airborne RaiderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57BBDCF8271F573B0017C7EB /* Airborne_RaiderUITests.m */,
+				57BBDCFA271F573B0017C7EB /* Info.plist */,
+			);
+			path = "Airborne RaiderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57BBDCCA271F57370017C7EB /* Airborne Raider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BBDCFD271F573B0017C7EB /* Build configuration list for PBXNativeTarget "Airborne Raider" */;
+			buildPhases = (
+				57BBDCC7271F57370017C7EB /* Sources */,
+				57BBDCC8271F57370017C7EB /* Frameworks */,
+				57BBDCC9271F57370017C7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Airborne Raider";
+			productName = "Airborne Raider";
+			productReference = 57BBDCCB271F57370017C7EB /* Airborne Raider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57BBDCE8271F573B0017C7EB /* Airborne RaiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BBDD00271F573B0017C7EB /* Build configuration list for PBXNativeTarget "Airborne RaiderTests" */;
+			buildPhases = (
+				57BBDCE5271F573B0017C7EB /* Sources */,
+				57BBDCE6271F573B0017C7EB /* Frameworks */,
+				57BBDCE7271F573B0017C7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BBDCEB271F573B0017C7EB /* PBXTargetDependency */,
+			);
+			name = "Airborne RaiderTests";
+			productName = "Airborne RaiderTests";
+			productReference = 57BBDCE9271F573B0017C7EB /* Airborne RaiderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57BBDCF3271F573B0017C7EB /* Airborne RaiderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BBDD03271F573B0017C7EB /* Build configuration list for PBXNativeTarget "Airborne RaiderUITests" */;
+			buildPhases = (
+				57BBDCF0271F573B0017C7EB /* Sources */,
+				57BBDCF1271F573B0017C7EB /* Frameworks */,
+				57BBDCF2271F573B0017C7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BBDCF6271F573B0017C7EB /* PBXTargetDependency */,
+			);
+			name = "Airborne RaiderUITests";
+			productName = "Airborne RaiderUITests";
+			productReference = 57BBDCF4271F573B0017C7EB /* Airborne RaiderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57BBDCC3271F57370017C7EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "SARFO KANTANKA FRIMPONG";
+				TargetAttributes = {
+					57BBDCCA271F57370017C7EB = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					57BBDCE8271F573B0017C7EB = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 57BBDCCA271F57370017C7EB;
+					};
+					57BBDCF3271F573B0017C7EB = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 57BBDCCA271F57370017C7EB;
+					};
+				};
+			};
+			buildConfigurationList = 57BBDCC6271F57370017C7EB /* Build configuration list for PBXProject "Airborne Raider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57BBDCC2271F57370017C7EB;
+			productRefGroup = 57BBDCCC271F57370017C7EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57BBDCCA271F57370017C7EB /* Airborne Raider */,
+				57BBDCE8271F573B0017C7EB /* Airborne RaiderTests */,
+				57BBDCF3271F573B0017C7EB /* Airborne RaiderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57BBDCC9271F57370017C7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BBDCE1271F573B0017C7EB /* LaunchScreen.storyboard in Resources */,
+				57BBDCDE271F573B0017C7EB /* Assets.xcassets in Resources */,
+				57BBDCD9271F57370017C7EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BBDCE7271F573B0017C7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BBDCF2271F573B0017C7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57BBDCC7271F57370017C7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BBDCE4271F573B0017C7EB /* main.m in Sources */,
+				57BBDCDC271F57370017C7EB /* Airborne_Raider.xcdatamodeld in Sources */,
+				57BBDCD6271F57370017C7EB /* ViewController.m in Sources */,
+				57BBDCD0271F57370017C7EB /* AppDelegate.m in Sources */,
+				57BBDCD3271F57370017C7EB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BBDCE5271F573B0017C7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BBDCEE271F573B0017C7EB /* Airborne_RaiderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BBDCF0271F573B0017C7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BBDCF9271F573B0017C7EB /* Airborne_RaiderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57BBDCEB271F573B0017C7EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57BBDCCA271F57370017C7EB /* Airborne Raider */;
+			targetProxy = 57BBDCEA271F573B0017C7EB /* PBXContainerItemProxy */;
+		};
+		57BBDCF6271F573B0017C7EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57BBDCCA271F57370017C7EB /* Airborne Raider */;
+			targetProxy = 57BBDCF5271F573B0017C7EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57BBDCD7271F57370017C7EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BBDCD8271F57370017C7EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57BBDCDF271F573B0017C7EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BBDCE0271F573B0017C7EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57BBDCFB271F573B0017C7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57BBDCFC271F573B0017C7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57BBDCFE271F573B0017C7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				INFOPLIST_FILE = "Airborne Raider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Raider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57BBDCFF271F573B0017C7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				INFOPLIST_FILE = "Airborne Raider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Raider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57BBDD01271F573B0017C7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				INFOPLIST_FILE = "Airborne RaiderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-RaiderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airborne Raider.app/Airborne Raider";
+			};
+			name = Debug;
+		};
+		57BBDD02271F573B0017C7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				INFOPLIST_FILE = "Airborne RaiderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-RaiderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airborne Raider.app/Airborne Raider";
+			};
+			name = Release;
+		};
+		57BBDD04271F573B0017C7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				INFOPLIST_FILE = "Airborne RaiderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-RaiderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Airborne Raider";
+			};
+			name = Debug;
+		};
+		57BBDD05271F573B0017C7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN9GWJ73D9;
+				INFOPLIST_FILE = "Airborne RaiderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-RaiderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Airborne Raider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57BBDCC6271F57370017C7EB /* Build configuration list for PBXProject "Airborne Raider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BBDCFB271F573B0017C7EB /* Debug */,
+				57BBDCFC271F573B0017C7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BBDCFD271F573B0017C7EB /* Build configuration list for PBXNativeTarget "Airborne Raider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BBDCFE271F573B0017C7EB /* Debug */,
+				57BBDCFF271F573B0017C7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BBDD00271F573B0017C7EB /* Build configuration list for PBXNativeTarget "Airborne RaiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BBDD01271F573B0017C7EB /* Debug */,
+				57BBDD02271F573B0017C7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BBDD03271F573B0017C7EB /* Build configuration list for PBXNativeTarget "Airborne RaiderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BBDD04271F573B0017C7EB /* Debug */,
+				57BBDD05271F573B0017C7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		57BBDCDA271F57370017C7EB /* Airborne_Raider.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57BBDCDB271F57370017C7EB /* Airborne_Raider.xcdatamodel */,
+			);
+			currentVersion = 57BBDCDB271F57370017C7EB /* Airborne_Raider.xcdatamodel */;
+			path = Airborne_Raider.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 57BBDCC3271F57370017C7EB /* Project object */;
+}
