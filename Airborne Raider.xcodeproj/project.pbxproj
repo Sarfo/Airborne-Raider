@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5773BE9827279F24005D601A /* SubTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5773BE9727279F24005D601A /* SubTitleViewController.m */; };
 		57BBDCD0271F57370017C7EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCCF271F57370017C7EB /* AppDelegate.m */; };
 		57BBDCD3271F57370017C7EB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCD2271F57370017C7EB /* SceneDelegate.m */; };
 		57BBDCD6271F57370017C7EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCD5271F57370017C7EB /* ViewController.m */; };
@@ -17,6 +18,12 @@
 		57BBDCE4271F573B0017C7EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCE3271F573B0017C7EB /* main.m */; };
 		57BBDCEE271F573B0017C7EB /* Airborne_RaiderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCED271F573B0017C7EB /* Airborne_RaiderTests.m */; };
 		57BBDCF9271F573B0017C7EB /* Airborne_RaiderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCF8271F573B0017C7EB /* Airborne_RaiderUITests.m */; };
+		57D5333027C5DD5100AF6196 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57ED8E3A272902F400AF2EBB /* WebKit.framework */; };
+		57ED8E382728F49600AF2EBB /* YoutubeVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ED8E372728F49600AF2EBB /* YoutubeVCViewController.m */; };
+		57ED8E3F27299CE100AF2EBB /* EquipCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ED8E3E27299CE000AF2EBB /* EquipCViewController.m */; };
+		57ED8E412729DFA700AF2EBB /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57ED8E402729DFA700AF2EBB /* AVKit.framework */; };
+		57ED8E432729DFBB00AF2EBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57ED8E422729DFBB00AF2EBB /* AVFoundation.framework */; };
+		57ED8E462729E5AA00AF2EBB /* PDFsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ED8E452729E5AA00AF2EBB /* PDFsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5773BE9627279F24005D601A /* SubTitleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubTitleViewController.h; sourceTree = "<group>"; };
+		5773BE9727279F24005D601A /* SubTitleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubTitleViewController.m; sourceTree = "<group>"; };
 		57BBDCCB271F57370017C7EB /* Airborne Raider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airborne Raider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BBDCCE271F57370017C7EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57BBDCCF271F57370017C7EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +65,16 @@
 		57BBDCF4271F573B0017C7EB /* Airborne RaiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airborne RaiderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BBDCF8271F573B0017C7EB /* Airborne_RaiderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airborne_RaiderUITests.m; sourceTree = "<group>"; };
 		57BBDCFA271F573B0017C7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57ED8E352728D5C500AF2EBB /* Airborne Raider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Airborne Raider.entitlements"; sourceTree = "<group>"; };
+		57ED8E362728F49600AF2EBB /* YoutubeVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoutubeVCViewController.h; sourceTree = "<group>"; };
+		57ED8E372728F49600AF2EBB /* YoutubeVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoutubeVCViewController.m; sourceTree = "<group>"; };
+		57ED8E3A272902F400AF2EBB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/iOSSupport/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		57ED8E3D27299CE000AF2EBB /* EquipCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquipCViewController.h; sourceTree = "<group>"; };
+		57ED8E3E27299CE000AF2EBB /* EquipCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquipCViewController.m; sourceTree = "<group>"; };
+		57ED8E402729DFA700AF2EBB /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/iOSSupport/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
+		57ED8E422729DFBB00AF2EBB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		57ED8E442729E5AA00AF2EBB /* PDFsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFsViewController.h; sourceTree = "<group>"; };
+		57ED8E452729E5AA00AF2EBB /* PDFsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57ED8E412729DFA700AF2EBB /* AVKit.framework in Frameworks */,
+				57ED8E432729DFBB00AF2EBB /* AVFoundation.framework in Frameworks */,
+				57D5333027C5DD5100AF6196 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +112,7 @@
 				57BBDCEC271F573B0017C7EB /* Airborne RaiderTests */,
 				57BBDCF7271F573B0017C7EB /* Airborne RaiderUITests */,
 				57BBDCCC271F57370017C7EB /* Products */,
+				57ED8E39272902F400AF2EBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,12 +129,21 @@
 		57BBDCCD271F57370017C7EB /* Airborne Raider */ = {
 			isa = PBXGroup;
 			children = (
+				57ED8E352728D5C500AF2EBB /* Airborne Raider.entitlements */,
 				57BBDCCE271F57370017C7EB /* AppDelegate.h */,
 				57BBDCCF271F57370017C7EB /* AppDelegate.m */,
 				57BBDCD1271F57370017C7EB /* SceneDelegate.h */,
 				57BBDCD2271F57370017C7EB /* SceneDelegate.m */,
+				5773BE9627279F24005D601A /* SubTitleViewController.h */,
+				5773BE9727279F24005D601A /* SubTitleViewController.m */,
+				57ED8E362728F49600AF2EBB /* YoutubeVCViewController.h */,
+				57ED8E372728F49600AF2EBB /* YoutubeVCViewController.m */,
+				57ED8E3D27299CE000AF2EBB /* EquipCViewController.h */,
+				57ED8E3E27299CE000AF2EBB /* EquipCViewController.m */,
 				57BBDCD4271F57370017C7EB /* ViewController.h */,
 				57BBDCD5271F57370017C7EB /* ViewController.m */,
+				57ED8E442729E5AA00AF2EBB /* PDFsViewController.h */,
+				57ED8E452729E5AA00AF2EBB /* PDFsViewController.m */,
 				57BBDCD7271F57370017C7EB /* Main.storyboard */,
 				57BBDCDD271F573B0017C7EB /* Assets.xcassets */,
 				57BBDCDF271F573B0017C7EB /* LaunchScreen.storyboard */,
@@ -138,6 +170,16 @@
 				57BBDCFA271F573B0017C7EB /* Info.plist */,
 			);
 			path = "Airborne RaiderUITests";
+			sourceTree = "<group>";
+		};
+		57ED8E39272902F400AF2EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57ED8E422729DFBB00AF2EBB /* AVFoundation.framework */,
+				57ED8E402729DFA700AF2EBB /* AVKit.framework */,
+				57ED8E3A272902F400AF2EBB /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +244,7 @@
 		57BBDCC3271F57370017C7EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = "SARFO KANTANKA FRIMPONG";
 				TargetAttributes = {
 					57BBDCCA271F57370017C7EB = {
@@ -270,11 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57ED8E382728F49600AF2EBB /* YoutubeVCViewController.m in Sources */,
 				57BBDCE4271F573B0017C7EB /* main.m in Sources */,
 				57BBDCDC271F57370017C7EB /* Airborne_Raider.xcdatamodeld in Sources */,
+				5773BE9827279F24005D601A /* SubTitleViewController.m in Sources */,
+				57ED8E462729E5AA00AF2EBB /* PDFsViewController.m in Sources */,
 				57BBDCD6271F57370017C7EB /* ViewController.m in Sources */,
 				57BBDCD0271F57370017C7EB /* AppDelegate.m in Sources */,
 				57BBDCD3271F57370017C7EB /* SceneDelegate.m in Sources */,
+				57ED8E3F27299CE100AF2EBB /* EquipCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +401,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -413,6 +460,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -443,6 +491,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Airborne Raider/Airborne Raider.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SN9GWJ73D9;
 				INFOPLIST_FILE = "Airborne Raider/Info.plist";
@@ -450,8 +500,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Raider";
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Raider-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -460,6 +511,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Airborne Raider/Airborne Raider.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SN9GWJ73D9;
 				INFOPLIST_FILE = "Airborne Raider/Info.plist";
@@ -467,8 +520,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Raider";
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.Airborne-Raider-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

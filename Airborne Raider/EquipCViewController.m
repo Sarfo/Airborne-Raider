@@ -42,7 +42,7 @@
     // Pass the selected object to the new view controller.
 }
 */
--(void)setTitle:(UILabel *)titleName andUrl:(UIWebView *)webView{
+-(void)setTitle:(UILabel *)titleName andUrl:(WKWebView *)webView{
     titleName.text=[m_data[m_selectedIdx] allKeys][0];
     [webView loadRequest: [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:[m_data[m_selectedIdx] allValues][0]]]];
   

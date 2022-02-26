@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
    
     // Do any additional setup after loading the view.
 }
@@ -52,7 +53,10 @@
 }
 - (IBAction)cassop:(id)sender {
  
-    
+    UIAlertController *cont=[UIAlertController alertControllerWithTitle:@"Airborne!!!" message:@"Study Guid Is Not Available" preferredStyle:UIAlertControllerStyleAlert];
+
+    [cont addAction:[UIAlertAction actionWithTitle:@"Continue" style:UIAlertActionStyleDestructive handler:nil]];
+    [self presentViewController:cont animated:YES completion:nil];
    
 }
 - (IBAction)jumpLogManagemnt:(id)sender {
@@ -64,14 +68,15 @@
     
 }
 
--(void)setTitle:(UILabel *)titleName andUrl:(UIWebView *)webView{
+-(void)setTitle:(UILabel *)titleName andUrl:(WKWebView *)webView{
     titleName.text=@"Jump Log Management";
     [webView loadRequest: [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:@"https://youtu.be/Cmp7uTWeA0E"]]];
 }
 -(void)viewPDf:(NSString*)url{
     UIViewController* vc=[[UIViewController alloc]init];
     
-    UIWebView *web=[[UIWebView alloc]init];
+    WKWebView *web=[[WKWebView alloc]init];
+    [web.scrollView setBackgroundColor:[UIColor blackColor]];
     [vc.view addSubview:web];
     [web setTranslatesAutoresizingMaskIntoConstraints:NO];
      [[web.trailingAnchor constraintEqualToAnchor:vc.view.trailingAnchor constant:0] setActive:YES];
@@ -80,7 +85,7 @@
    [[web.bottomAnchor constraintEqualToAnchor:vc.view.bottomAnchor constant:0] setActive:YES];
 
     [web loadRequest: [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:url]]];
-  
+    
     [self.navigationController pushViewController:vc animated:YES];
 }
 - (IBAction)closeViewController:(id)sender {

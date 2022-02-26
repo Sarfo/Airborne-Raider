@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <WebKit/WebKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol SetInfo <NSObject>
 
--(void)setTitle:(UILabel*) titleName andUrl:(UIWebView*) webView;
+-(void)setTitle:(UILabel*) titleName andUrl:(WKWebView*) webView;
  
 @end
 
@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
     id<SetInfo> m_setInfoDelegate;
 }
 @property (weak, nonatomic) IBOutlet UILabel *m_subTitle;
-@property (weak, nonatomic) IBOutlet UIWebView *m_youtWebKit;
+@property (weak, nonatomic) IBOutlet WKWebView *m_youtWebKit;
 -(void)setSubTitle:( NSString * )title;
 
 @end

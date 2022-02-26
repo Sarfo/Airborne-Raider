@@ -40,7 +40,7 @@
     
     // Do any additional setup after loading the view.
 }
--(void)setTitle:(UILabel *)titleName andUrl:(UIWebView *)webView{
+-(void)setTitle:(UILabel *)titleName andUrl:(WKWebView *)webView{
     titleName.text=[m_titleArray[m_selectedRow] allKeys][0];
     [webView loadRequest: [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:[m_titleArray[m_selectedRow] allValues][0]]]];
   

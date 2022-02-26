@@ -34,21 +34,13 @@
 
 
 - (IBAction)coursesDateCall:(id)sender {
-   NSString *phoneNumber = [@"tel://" stringByAppendingString:@"(910)376-9023"];
-    NSDictionary *options = @{UIApplicationOpenURLOptionUniversalLinksOnly : @YES};
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phoneNumber] options:options completionHandler:^(BOOL success) {
-         
-    }];
+   
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:(910)376-9023"]  options:@{} completionHandler:nil];
     
 }
 
 - (IBAction)amc_umodpc:(id)sender {
-   NSString *phoneNumber = [@"tel://" stringByAppendingString:@"(910)432-5601"];
-    NSDictionary *options = @{UIApplicationOpenURLOptionUniversalLinksOnly : @YES};
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phoneNumber] options:options completionHandler:^(BOOL success) {
-         
-    }];
-    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:(910)432-5601"]  options:@{} completionHandler:nil];
 }
 
 - (IBAction)m_openMap:(id)sender {
