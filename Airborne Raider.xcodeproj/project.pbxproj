@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		574973532817A1F900F84FA8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 574973522817A1F900F84FA8 /* README.md */; };
 		5773BE9827279F24005D601A /* SubTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5773BE9727279F24005D601A /* SubTitleViewController.m */; };
 		57BBDCD0271F57370017C7EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCCF271F57370017C7EB /* AppDelegate.m */; };
 		57BBDCD3271F57370017C7EB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBDCD2271F57370017C7EB /* SceneDelegate.m */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		574973522817A1F900F84FA8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5773BE9627279F24005D601A /* SubTitleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubTitleViewController.h; sourceTree = "<group>"; };
 		5773BE9727279F24005D601A /* SubTitleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubTitleViewController.m; sourceTree = "<group>"; };
 		57BBDCCB271F57370017C7EB /* Airborne Raider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airborne Raider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 		57BBDCC2271F57370017C7EB = {
 			isa = PBXGroup;
 			children = (
+				574973522817A1F900F84FA8 /* README.md */,
 				57BBDCCD271F57370017C7EB /* Airborne Raider */,
 				57BBDCEC271F573B0017C7EB /* Airborne RaiderTests */,
 				57BBDCF7271F573B0017C7EB /* Airborne RaiderUITests */,
@@ -287,6 +290,7 @@
 			files = (
 				57BBDCE1271F573B0017C7EB /* LaunchScreen.storyboard in Resources */,
 				57BBDCDE271F573B0017C7EB /* Assets.xcassets in Resources */,
+				574973532817A1F900F84FA8 /* README.md in Resources */,
 				57BBDCD9271F57370017C7EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

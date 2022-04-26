@@ -1,8 +1,33 @@
-# Airborne-Raider App
+#Airborne Raider App Read Me
 
-U.S Army Jumpmaster Study App .
+##App Name 
+ Airborne Raider App
 
-This app is created to provide all resources you need to study to pass your jumpmaster school.
+##App Description
+
+##This is a learning materials app for U.S  Army Jumpmasters and all paratroopers, this app provides videos and pdf  tutorials teaching all  you need to know to be a Jumpmaster and the directions you need.  
 
 
-Available on  Apple App Store and Google Play Store.
+##Platform Compatible
+IOS (iPhone,iPad) , MAC 
+
+##App Bundle ID
+SB.Airborne-Raider-App
+
+App Version Number
+1.0
+
+##Xcode version built on
+Xcode Version 13.1 (13A1030d)
+
+##Third Party Dependency(s)
+None
+
+
+
+
+
+
+
+
+
